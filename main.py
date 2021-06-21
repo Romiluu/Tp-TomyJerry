@@ -8,7 +8,25 @@ joules=12
 energiaTom=100
 #la velocidad es 5m x 1 segundo + energia en joules dividido 10
 
-print('---------- Bienvenidos a play with Tom -------')
+print("")
+print("    ###################################")
+print("    #                                 #")
+print("    #   Hola!! Bienvenidos a Jugando  #")
+print("    #            With Tom!!           #")
+print("    #                                 #")
+print("    ###################################")
+
+def start_game():
+    start = None
+    while start != "S":
+        start = input("¿Queres empezar a jugar?: [S/N] ")
+        start = start.upper()
+        if start == "N":
+            print("Media pila loco nos hiciste codear al pedo!!!")
+            exit()
+        if start == "S":
+            print("Bien!! Veremos lo que pasa con nuestro amigo Tom!!")
+start_game()
 
 opc =1
 while opc ==1:
