@@ -30,14 +30,14 @@ start_game()
 
 opc =1
 while opc ==1:
-    print("La energía inicial de Tom es:", energiaTom)
-    pesoRaton = int(input("\nIngrese cuantos gramos pesa el ratón que se comerá tom: "))
+    print("La energía inicial de Tom es:", energiaTom, "joules")
+    pesoRaton = int(input("\nIngrese cuantos gramos pesa el ratón que se comerá Tom: "))
     nombreRaton = str(input("¿Como se llama el ratón?: "))
     print(nombreRaton, "ha sido entregado como trubuto a Tom (╥﹏╥) ")
 
     energiaTom = energiaTom + pesoRaton + joules
     energiaGanada = pesoRaton + joules
-    print("La energía de Tom ahora es de:", energiaTom)
+    print("La energía de Tom ahora es de:", energiaTom, "joules")
 
     segundos = int(input(f"Ingrese la cantidad de segundos que correrá Tom para atrapar a {nombreRaton}: "))
 
