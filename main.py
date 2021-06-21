@@ -13,7 +13,7 @@ print('---------- Bienvenidos a play with Tom -------')
 opc =1
 while opc ==1:
     print("La energía inicial de Tom es:", energiaTom)
-    pesoRaton = int(input("\nIngrese el peso del ratón que se comerá tom: "))
+    pesoRaton = int(input("\nIngrese cuantos gramos pesa el ratón que se comerá tom: "))
     nombreRaton = str(input("¿Como se llama el ratón?: "))
     print(nombreRaton, "ha sido entregado como trubuto a Tom (╥﹏╥) ")
 
