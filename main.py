@@ -22,7 +22,7 @@ def start_game():
         start = input("¿Queres empezar a jugar?: [S/N] ")
         start = start.upper()
         if start == "N":
-            print("Media pila loco nos hiciste codear al pedo!!!")
+            print("Media pila loco!! Nos hiciste codear al pedo!!!")
             exit()
         if start == "S":
             print("Bien!! Veremos lo que pasa con nuestro amigo Tom!!")
