@@ -4,15 +4,28 @@ gramos).
 - La velocidad de Tom es 5 metros x segundo + (energía medida en joules / 10).
 - Cuando Tom corre, su energía disminuye en (0.5 x cantidad de metros que corrió).'''
 
+# Investigamos como hacer para convertir los gramos en joules, pero encontramos que son dos tipos de
+#unidades diferentes y no hay ninguna conversion concreta, por eso damos por hecho que podemos mezclarlos.
+#el calculo que hicimos fue: energiaTom = energiaTom + pesoRaton + joules.
+
+'''
+INTEGRANTES DEL GRUPO AVENGERS:
+Romina Luna - romiluna04@gmail.com
+Gabriela Martinez Soliz - gms.martinez18@gmail.com
+Natalia Villafañe - nataliavillafane05@gmail.com
+Azucena Panez Campos - azucenadelrosario95@gmail.com
+'''
+
+
 joules=12
 energiaTom=100
-#la velocidad es 5m x 1 segundo + energia en joules dividido 10
+
 
 print("")
 print("    ###################################")
 print("    #                                 #")
 print("    #   Hola!! Bienvenidos a Jugando  #")
-print("    #            With Tom!!           #")
+print("    #            con Tom!!           #")
 print("    #                                 #")
 print("    ###################################")
 
@@ -56,7 +69,7 @@ while opc ==1:
         print("\nTom pierde", (energiaPerdida), "de energía al correr tantos metros, no comerá a",nombreRaton )
         print(nombreRaton,  "resucitó entre los muertos (っ◕‿◕)っ ♥\n")
 
-    opc = int(input("Si desea entregar a otro ratón como tributo para Tom ingrese 1, si desea salir ingrese cualquier numero:"))
+    opc = int(input("Si desea entregar a otro ratón como tributo para Tom ingrese 1, si desea salir ingrese cualquier número:"))
 
 else:
     print("\nAdios!! Tom te extrañará y necesita comer, así que no te tardes mucho en volver!!")
